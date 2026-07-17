@@ -1,8 +1,10 @@
 // Loader
 window.addEventListener("load", () => {
+
     setTimeout(() => {
-        document.getElementById("loader").style.display = "none";
-    }, 3000);
+        typeWriter();
+    }, 1500);
+
 });
 
 // Music
